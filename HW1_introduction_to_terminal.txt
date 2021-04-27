@@ -1,0 +1,42 @@
+1 pwd - print work directory - Shows the current directory
+2 mkdir - make a directory - Makes a new directory in current directory
+	mkdir name - makes 1 new derictory with 'name'
+	mkdir name1 name2 make3 - makes 3 new directory
+3 cd - change directory - Navigation
+	cd 'adress' - e.g. /c/user/
+	cd .. - goes one directory up
+	cd -  - goes back to previus directory
+	cd ~  - goes to home derictory
+4 touch - Create a file
+5 ls - list - Shows content of current directory
+	ls -l - long - shows content in long format
+	ls -a - also shows hidden files which name starts from dot(.)
+6 vim - Text editor
+	vim filename - opens this file in vim editor
+		for editing file press - i
+		for use vim command line press - :
+			for quet press - q
+			for save changes press - w
+7 mv - move - Moves files or directories
+	mv name address - e.g. mv file1 file2 file3 /c/user/
+8 cp - copy - Copy files or folders to adress you designate
+	cp -r - copy directory recursively
+9 find - Search for files or directory
+	find -name file1 - search file1 in current directory
+10 grep - global regular expression print - Search text by pattern
+	grep -A2 - shows seeked pattern plus 2 lines after
+	grep -B2 - shows seeked pattern plus 2 lines before
+	grep -C2 - shows seeked pattern plus 2 lines before and 2 lines after
+11 head - Shows 10(default) lines from beginning of file
+	head -n2 - shows 2 lines from beginning
+12 tail - Shows 10(default) lines from ending
+	tail -n4 - shows 4 lines from ending
+13 date - Shows actual time and date
+14 curl - transfers data from or to server
+	curl -O link - saves file from link with it's original name
+15 ./scriptname - Runs script if you got permission for that
+16 echo "argument" - Write arguments as a standart output
+17 chmod - change mode - Changes access permission for files
+	chmod ugo-rwx - takes from user, group and others access permission to read, write and execute
+	chmod ugo+rwx - gives all permission for all users
+
