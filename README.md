@@ -1,1 +1,1 @@
-# QA-start
+# Unix/Linux terminal
