@@ -40,4 +40,8 @@
 17 chmod - change mode - Changes access permission for files
 	chmod ugo-rwx - takes from user, group and others access permission to read, write and execute
 	chmod ugo+rwx - gives all permission for all users
-
+18 cat - concatenate - Concatenate files and print on terminal
+	cat -n - number all output lines
+	cat file1 > file2 - overwrites content from file1 to file2
+19 rm - remove - Removes files or directories
+	rm -R dirname - removes recursively from directory
