@@ -34,6 +34,7 @@
 13 date - Shows actual time and date
 14 curl - transfers data from or to server
 	curl -O link - saves file from link with it's original name
+	curl -X GET link - shows file from link in terminal
 15 ./scriptname - Runs script if you got permission for that
 16 echo "argument" - Write arguments as a standart output
 17 chmod - change mode - Changes access permission for files
