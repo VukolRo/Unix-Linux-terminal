@@ -33,6 +33,7 @@
 	tail -n4 - shows 4 lines from ending
 13 date - Shows actual time and date
 14 curl - transfers data from or to server
+	curl link - GET request from link, shows sours code of page 
 	curl -O link - saves file from link with it's original name
 	curl -X GET link - shows file from link in terminal
 15 ./scriptname - Runs script if you got permission for that
@@ -45,3 +46,4 @@
 	cat file1 > file2 - overwrites content from file1 to file2
 19 rm - remove - Removes files or directories
 	rm -R dirname - removes recursively from directory
+20 file - Shows type files
